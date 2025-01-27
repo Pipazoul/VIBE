@@ -2,7 +2,7 @@
 
 mkdir -p data
 cd data
-gdown "https://drive.google.com/uc?id=1untXhYOLQtpNEy4GTY_0fL_H-k6cTf_r"
+wget "https://stableai-space.fra1.digitaloceanspaces.com/screen-club/vibe_data.zip"
 unzip vibe_data.zip
 rm vibe_data.zip
 cd ..
